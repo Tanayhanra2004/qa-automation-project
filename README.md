@@ -1,13 +1,13 @@
-# 🚀 QA Automation Framework (Hybrid UI + API)
+ QA Automation Framework (Hybrid UI + API)
 
-## 📌 Overview
+📌 Overview
 
 This project is an advanced **Hybrid Test Automation Framework** built using Python.
 It supports **UI Automation, API Testing, Data-Driven Testing, and CI/CD integration**.
 
 ---
 
-## 🧰 Tech Stack
+ 🧰 Tech Stack
 
 * Python
 * Selenium WebDriver
@@ -19,7 +19,7 @@ It supports **UI Automation, API Testing, Data-Driven Testing, and CI/CD integra
 
 ---
 
-## ✨ Features
+✨ Features
 
 * Page Object Model (POM) design pattern
 * UI Automation using Selenium
@@ -32,7 +32,7 @@ It supports **UI Automation, API Testing, Data-Driven Testing, and CI/CD integra
 
 ---
 
-## 📁 Project Structure
+ 📁 Project Structure
 
 ```
 qa-automation-project/
@@ -57,27 +57,26 @@ qa-automation-project/
 
 ---
 
-## ▶️ How to Run Tests
+ ▶️ How to Run Tests
 
-### Step 1: Create Virtual Environment
+ Step 1: Create Virtual Environment
 
 ```
 python -m venv venv
 ```
 
-### Step 2: Activate Environment
+Step 2: Activate Environment
 
 ```
 venv\Scripts\activate
 ```
 
-### Step 3: Install Dependencies
+ Step 3: Install Dependencies
 
 ```
 pip install -r requirements.txt
 ```
-
-### Step 4: Run Tests
+ Step 4: Run Tests
 
 ```
 pytest
@@ -85,7 +84,7 @@ pytest
 
 ---
 
-## ⚡ Run Tests in Parallel
+⚡ Run Tests in Parallel
 
 ```
 pytest -n 2
@@ -93,7 +92,7 @@ pytest -n 2
 
 ---
 
-## 📊 Generate Allure Report
+📊 Generate Allure Report
 
 ```
 pytest --alluredir=reports
@@ -102,20 +101,17 @@ allure serve reports
 
 ---
 
-## 🌐 Test Applications
+ 🌐 Test Applications
 
 * https://www.saucedemo.com/
 * https://reqres.in/
 
 ---
 
-## 🔄 CI/CD Integration
+ 🔄 CI/CD Integration
 
 * Automated test execution using GitHub Actions
 * Runs tests automatically on every push
 
 ---
 
-## 💼 Author
-
-QA Automation Engineer Project
